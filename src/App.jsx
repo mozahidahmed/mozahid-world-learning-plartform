@@ -2,6 +2,8 @@
 import { useEffect, useState } from 'react';
 import CircleLoader
   from "react-spinners/CircleLoader";
+import Home from './components/home/Home';
+import Footer from './components/shared/Footer';
 
 
 
@@ -17,31 +19,21 @@ function App() {
 
 
   return (
-    <div className="" >
-
-{
-  loading?
-<div className="h-screen grid justify-center items-center">
-            <CircleLoader
-
-              color={"#2874f0"}
-              loading={loading}
-              size={150}
-              className='h-screen'
-
-            />
-            
-</div>
-          :
-         <>
-           
-            <h1 className='text-5xl font-bold'>mozahid world</h1>
-            
-              
-         </>
-
-}
-
+    <div className="">
+      {loading ? (
+        <div className="h-screen grid justify-center items-center">
+          <CircleLoader
+            color={"#2874f0"}
+            loading={loading}
+            size={150}
+            className="h-screen"
+          />
+        </div>
+      ) : (
+        <div className="">
+          <Home /><Footer/>
+        </div>
+      )}
     </div>
   );
 }
