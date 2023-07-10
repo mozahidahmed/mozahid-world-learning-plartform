@@ -6,6 +6,7 @@ const Footer = () => {
       <div className="grid  lg:grid-cols-4  md:grid-cols-2 sm:grid-cols-1 px-6 py-6">
         <div className="mt-6">
           <h1 className="text-2xl font-bold">Mozahid World</h1>
+         
         </div>
         <div className="mt-6">
           <h2 className="font-bold text-2xl mb-2">Tutorials:</h2>
@@ -52,10 +53,9 @@ const Footer = () => {
       <div className="px-6 py-6 flex justify-between">
         <p> @Mozahid World Labs Pvt. Ltd. All rights reserved.</p>
         <div className="flex gap-6">
-            <h1>Facebook</h1>
-            <h1>Github</h1>
-            <h1>linkedIn</h1>
-
+          <h1>Facebook</h1>
+          <h1>Github</h1>
+          <h1>linkedIn</h1>
         </div>
       </div>
     </div>

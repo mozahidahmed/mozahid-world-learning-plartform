@@ -4,6 +4,7 @@ import CircleLoader
   from "react-spinners/CircleLoader";
 import Home from './components/home/Home';
 import Footer from './components/shared/Footer';
+import Navbar from './components/shared/Navbar';
 
 
 
@@ -31,6 +32,7 @@ function App() {
         </div>
       ) : (
         <div className="">
+          <Navbar/>
           <Home /><Footer/>
         </div>
       )}
