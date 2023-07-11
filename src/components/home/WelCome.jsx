@@ -2,7 +2,7 @@
 
 const WelCome = () => {
     return (
-      <div className="px-16 ">
+      <div className="">
         <div className="py-6">
           <div className="lg:text-[120px] text-[50px]  grid  ">
             <h1 className="font-bold">CREATING</h1>

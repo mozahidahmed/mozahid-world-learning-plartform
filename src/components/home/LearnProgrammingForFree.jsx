@@ -3,7 +3,7 @@
 
 const LearnProgrammingForFree = () => {
     return (
-      <div className="px-16 ">
+      <div className="">
         <div className="grid lg:grid-cols-2 justify-center items-center">
           <div className="">
             <h1 className="font-bold lg:text-4xl">

@@ -6,12 +6,12 @@ import WhyMozahidWorld from "./WhyMozahidWorld";
 
 const Home = () => {
     return (
-        <div className="">
-        <WelCome/>
-        <LearnProgrammingForFree/>
-        <Course/>
-        <WhyMozahidWorld/>
-        </div>
+      <div className="lg:px-16 md:px-12 px-6">
+        <WelCome />
+        <LearnProgrammingForFree />
+        <Course />
+        <WhyMozahidWorld />
+      </div>
     );
 };
 

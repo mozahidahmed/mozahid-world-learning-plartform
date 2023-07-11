@@ -5,7 +5,7 @@ import { AiOutlineQrcode } from "react-icons/ai";
 
 const WhyMozahidWorld = () => {
     return (
-      <div className="bg-[#fafafa] py-16 px-6">
+      <div className="bg-[#fafafa] py-12 ">
         <h1 className=" text-center mb-6 text-4xl font-bold">
           Why Mozahid World?
         </h1>
