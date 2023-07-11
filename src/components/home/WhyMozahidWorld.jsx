@@ -5,9 +5,9 @@ import { AiOutlineQrcode } from "react-icons/ai";
 
 const WhyMozahidWorld = () => {
     return (
-      <div className="bg-[#fafafa] py-12 ">
-        <h1 className=" text-center mb-6 text-4xl font-bold">
-          Why Mozahid World?
+      <div className="bg-[#fafafa] py-24 lg:px-16 md:px-12 px-6">
+        <h1 className=" text-center mb-6 lg:text-4xl md:text-3xl text-2xl font-bold">
+          Why Mozahid World ?
         </h1>
         <div className="grid p-6 md:grid-cols-2 justify-center items-center lg:grid-cols-3 ">
           <div className="flex justify-center mt-6">
@@ -28,7 +28,7 @@ const WhyMozahidWorld = () => {
               <AiOutlineQrcode />
             </div>
             <div className="">
-              <h1 className=" mb-2 text-2xl">Content You Can Trust</h1>
+              <h1 className=" mb-2 text-2xl">Content You Can Trust Me</h1>
               <p>
                 We focus on simplicity.<br></br> Programming tutorials and{" "}
                 <br></br>examples written in simple,<br></br> understandable
@@ -41,7 +41,7 @@ const WhyMozahidWorld = () => {
               <BsCodeSquare />
             </div>
             <div className="">
-              <h1 className=" mb-2 text-2xl">Learn by Doing</h1>
+              <h1 className=" mb-2 text-2xl">Learn by as well as Doing</h1>
               <p>
                 We focus on simplicity.<br></br> Programming tutorials and{" "}
                 <br></br>examples written in simple,<br></br> understandable

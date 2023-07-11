@@ -11,7 +11,10 @@ import { SiTypescript } from "react-icons/si";
 
 const Course = () => {
   return (
-    <div className="py-12">
+    <div className="py-12 lg:px-16 md:px-12 px-6">
+      <h1 className="font-bold lg:text-4xl md:text-3xl text-2xl mb-6">
+        Free tutorials
+      </h1>
       <div className="grid md:grid-cols-2 items-center lg:grid-cols-4 gap-2">
         <div className="flex items-center  border-2 p-5 shadow-sm gap-2  text-3xl ">
           <div className="bg-[#0556f3] text-white rounded-full p-2">
