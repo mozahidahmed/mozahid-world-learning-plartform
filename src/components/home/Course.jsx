@@ -11,7 +11,7 @@ import { SiTypescript } from "react-icons/si";
 
 const Course = () => {
   return (
-    <div className="p-6">
+    <div className="px-16 py-12">
       <div className="grid md:grid-cols-2 items-center lg:grid-cols-4 gap-2">
         <div className="flex items-center  border-2 p-5 shadow-sm gap-2  text-3xl ">
           <div className="bg-[#0556f3] text-white rounded-full p-2">
@@ -89,7 +89,7 @@ const Course = () => {
           <h1 className="text-2xl">Learn Git</h1>
         </div>
         <div className="flex items-center  border-2 p-5 shadow-sm gap-2 text-3xl ">
-          <h1 className="text-[#0556f3] ">View all tutorials </h1>
+          <h1 className="text-[#0556f3] ">all tutorials </h1>
           <div className="text-[#0556f3]   rounded-full p-2">
             <BiArrowFromLeft />
           </div>
