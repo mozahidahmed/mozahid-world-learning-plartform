@@ -10,7 +10,7 @@ const WhyMozahidWorld = () => {
           Why Mozahid World ?
         </h1>
         <div className="grid p-6 md:grid-cols-2 justify-center items-center lg:grid-cols-3 ">
-          <div className="flex justify-center mt-6">
+          <div className="flex justify-center items-center mt-6">
             <div className="p-2 text-4xl text-[#0556f3]">
               <FaStarOfDavid />
             </div>
@@ -25,7 +25,7 @@ const WhyMozahidWorld = () => {
               </p>
             </div>
           </div>
-          <div className="flex justify-center mt-6 ">
+          <div className="flex justify-center items-center mt-6 ">
             <div className="p-2 text-4xl text-[#0556f3]">
               <AiOutlineQrcode />
             </div>
@@ -40,7 +40,7 @@ const WhyMozahidWorld = () => {
               </p>
             </div>
           </div>
-          <div className="flex justify-center mt-6">
+          <div className="flex justify-center items-center mt-6">
             <div className="p-2 text-4xl text-[#0556f3]">
               <BsCodeSquare />
             </div>
