@@ -2,11 +2,10 @@
 
 const Footer = () => {
   return (
-    <div className="bg-[rgba(20,28,58,.9)] text-white py-2">
+    <div className="bg-[#26302b] text-white py-2">
       <div className="grid  lg:grid-cols-4  md:grid-cols-2 sm:grid-cols-1 px-6 py-6">
         <div className="mt-6">
           <h1 className="text-2xl font-bold">Mozahid World</h1>
-         
         </div>
         <div className="mt-6">
           <h2 className="font-bold text-2xl mb-2">Tutorials:</h2>
