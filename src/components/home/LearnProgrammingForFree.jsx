@@ -4,7 +4,7 @@
 const LearnProgrammingForFree = () => {
     return (
       <div className="lg:px-16 md:px-12 px-6">
-        <div className="grid lg:grid-cols-2 justify-center items-center">
+        <div className="grid lg:grid-cols-2 md:grid-cols-2 justify-center items-center">
           <div className="">
             <h1 className="font-bold lg:text-4xl md:text-3xl text-2xl">
               𝗟𝗲𝗮𝗿𝗻 𝗽𝗿𝗼𝗴𝗿𝗮𝗺𝗺𝗶𝗻𝗴 <br></br> 𝗳𝗼𝗿 𝗙𝗿𝗲𝗲
@@ -31,7 +31,7 @@ const LearnProgrammingForFree = () => {
               </div>
             </div>
           </div>
-          <div className="">
+          <div className="lg:order-last md:order-last order-first">
             <img
               src="https://www.programiz.com/sites/all/themes/programiz/assets/cover-artwork.png"
               alt=""

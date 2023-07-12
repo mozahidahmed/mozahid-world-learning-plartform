@@ -29,7 +29,7 @@ const WelCome = () => {
             ᴇxᴄᴇʟʟᴇɴᴄᴇ ʙʏ ᴇɴʀɪᴄʜɪɴɢ <br /> ᴏᴜʀ ᴏᴡɴ ᴄᴀᴘᴀʙɪʟɪᴛɪᴇꜱ.
           </h2>
         </div>
-        <div className="grid lg:grid-cols-2 gap-12">
+        <div className="grid lg:grid-cols-2 md:grid-cols-2 gap-12">
           <p>
             We have a unique combination of talents motivated by ambitious goals
             and a can-do attitude. Our drive to develop excellent products is

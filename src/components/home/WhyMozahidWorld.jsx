@@ -15,7 +15,9 @@ const WhyMozahidWorld = () => {
               <FaStarOfDavid />
             </div>
             <div className="">
-              <h1 className=" mb-2 text-2xl">Programming made easy</h1>
+              <h1 className=" mb-2 lg:text-2xl text-xl">
+                Programming made easy
+              </h1>
               <p>
                 We focus on simplicity.<br></br> Programming tutorials and{" "}
                 <br></br>examples written in simple,<br></br> understandable
@@ -28,7 +30,9 @@ const WhyMozahidWorld = () => {
               <AiOutlineQrcode />
             </div>
             <div className="">
-              <h1 className=" mb-2 text-2xl">Content You Can Trust Me</h1>
+              <h1 className=" mb-2 lg:text-2xl text-xl">
+                Content You Can Trust Me
+              </h1>
               <p>
                 We focus on simplicity.<br></br> Programming tutorials and{" "}
                 <br></br>examples written in simple,<br></br> understandable
@@ -41,7 +45,9 @@ const WhyMozahidWorld = () => {
               <BsCodeSquare />
             </div>
             <div className="">
-              <h1 className=" mb-2 text-2xl">Learn by as well as Doing</h1>
+              <h1 className=" mb-2 lg:text-2xl text-xl">
+                Learn by as well as Doing
+              </h1>
               <p>
                 We focus on simplicity.<br></br> Programming tutorials and{" "}
                 <br></br>examples written in simple,<br></br> understandable
