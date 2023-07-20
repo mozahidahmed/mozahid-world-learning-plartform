@@ -50,7 +50,7 @@ const Footer = () => {
       </div>
       <hr />
       <div className="px-6 py-6 flex justify-between">
-        <p> @Mozahid World Labs Pvt. Ltd. All rights reserved.</p>
+        <p> @2023</p>
         <div className="flex gap-6">
           <h1>Facebook</h1>
           <h1>Github</h1>
