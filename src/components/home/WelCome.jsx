@@ -24,7 +24,7 @@ const WelCome = () => {
         <div className="py-6">
           <h1>WE ENVISION WITH A MISSION</h1>
 
-          <h1 className="text-3xl text-xl font-bold py-2">
+          <h1 className="lg:text-3xl md:text-xl  font-bold py-2">
             Here, we embrace the challenge to drive <br />each other to excellence by
             enriching <br />our own capabilities
           </h1>
