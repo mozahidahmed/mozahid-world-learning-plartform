@@ -4,7 +4,7 @@ const WelCome = () => {
   return (
     <div className="lg:px-16 md:px-12 px-6">
       <div className="py-6">
-        <div className="lg:text-[120px] text-[30px]  grid  ">
+        <div className="lg:text-[120px] text-[40px]  grid  ">
           <h1 className="font-bold specialhead">CREATING</h1>
           <h1 className="lg:mt-[-60px]  text-[#0556f3] font-bold">
             THE - FUTURE
@@ -24,7 +24,7 @@ const WelCome = () => {
         <div className="py-6">
           <h1>WE ENVISION WITH A MISSION</h1>
 
-          <h1 className="text-3xl font-bold py-2">
+          <h1 className="text-3xl text-xl font-bold py-2">
             Here, we embrace the challenge to drive <br />each other to excellence by
             enriching <br />our own capabilities
           </h1>
