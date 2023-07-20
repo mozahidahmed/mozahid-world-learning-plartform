@@ -5,29 +5,29 @@ const WelCome = () => {
     <div className="lg:px-16 md:px-12 px-6">
       <div className="py-6">
         <div className="lg:text-[120px] text-[50px]  grid  ">
-          <h1 className="font-bold">CREATING</h1>
-          <h1 className="lg:mt-[-60px] font-bold text-[#0556f3] ">
-            THE - 𝔽𝕌𝕋𝕌ℝ𝔼
+          <h1 className="font-bold specialhead">CREATING</h1>
+          <h1 className="lg:mt-[-60px]  text-[#0556f3] font-bold">
+            THE - FUTURE
           </h1>
-          <h1 className="lg:mt-[-60px] font-bold">WEB DEVELOPER </h1>
+          <h1 className="lg:mt-[-60px] font-bold specialhead">WEB DEVELOPER </h1>
         </div>
-        <p className="lg:text-3xl mb-12">
-          𝙷𝚎𝚕𝚙𝚒𝚗𝚐 𝚋𝚞𝚜𝚒𝚗𝚎𝚜𝚜𝚎𝚜 𝚐𝚘 𝚘𝚗𝚕𝚒𝚗𝚎 𝚊𝚗𝚍 𝚐𝚛𝚘𝚠 𝚋𝚒𝚐𝚐𝚎𝚛 <br /> 𝚠𝚒𝚝𝚑 𝚑𝚒𝚐𝚑-𝚝𝚎𝚌𝚑 𝚠e
-          a𝚙𝚙𝚕𝚒𝚌𝚊𝚝𝚒𝚘𝚗𝚜.
-        </p>
+        <h1 className="lg:text-3xl mb-12 dark_style">
+          Helping businesses go online and grow bigger <br /> with high-tech web
+          applications.
+        </h1>
       </div>
-      <div className="text-5xl fade grid justify-center">
+      <div className="text-5xl fade grid justify-center animate-bounce">
         <CgMouse />
       </div>
 
       <div className="py-12">
         <div className="py-6">
-          <h1>𝚆𝙴 𝙴𝙽𝚅𝙸𝚂𝙸𝙾𝙽 𝚆𝙸𝚃𝙷 𝙰 𝙼𝙸𝚂𝚂𝙸𝙾𝙽</h1>
+          <h1>WE ENVISION WITH A MISSION</h1>
 
-          <h2 className="text-3xl font-bold py-2">
-            ʜᴇʀᴇ, ᴡᴇ ᴇᴍʙʀᴀᴄᴇ ᴛʜᴇ ᴄʜᴀʟʟᴇɴɢᴇ ᴛᴏ ᴅʀɪᴠᴇ <br /> ᴇᴀᴄʜ ᴏᴛʜᴇʀ ᴛᴏ
-            ᴇxᴄᴇʟʟᴇɴᴄᴇ ʙʏ ᴇɴʀɪᴄʜɪɴɢ <br /> ᴏᴜʀ ᴏᴡɴ ᴄᴀᴘᴀʙɪʟɪᴛɪᴇꜱ.
-          </h2>
+          <h1 className="text-3xl font-bold py-2">
+            Here, we embrace the challenge to drive <br />each other to excellence by
+            enriching <br />our own capabilities
+          </h1>
         </div>
         <div className="grid lg:grid-cols-2 md:grid-cols-2 gap-12">
           <p>

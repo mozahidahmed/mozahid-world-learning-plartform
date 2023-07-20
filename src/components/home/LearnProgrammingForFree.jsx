@@ -7,7 +7,7 @@ const LearnProgrammingForFree = () => {
         <div className="grid lg:grid-cols-2 md:grid-cols-2 justify-center items-center">
           <div className="">
             <h1 className="font-bold lg:text-4xl md:text-3xl text-2xl">
-              𝗟𝗲𝗮𝗿𝗻 𝗽𝗿𝗼𝗴𝗿𝗮𝗺𝗺𝗶𝗻𝗴 <br></br> 𝗳𝗼𝗿 𝗙𝗿𝗲𝗲
+              Learn Programming <br></br> For Free
             </h1>
             <p className="mt-6">
               Learn to program with our beginner-friendly tutorials <br></br>{" "}
@@ -15,9 +15,9 @@ const LearnProgrammingForFree = () => {
               and learn to program.
             </p>
             <div className="mt-12">
-              <h2 className="font-bold lg:text-2xl">
+              <h1 className="font-bold lg:text-2xl">
                 Get the latest tutorials and updates
-              </h2>
+              </h1>
               <div className="flex mt-2">
                 <input
                   type="email"

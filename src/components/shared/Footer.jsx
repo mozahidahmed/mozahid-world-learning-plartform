@@ -4,11 +4,11 @@ const Footer = () => {
   return (
     <div className="bg-[#26302b] text-white py-2">
       <div className="grid  lg:grid-cols-4  md:grid-cols-2 sm:grid-cols-1 px-6 py-6">
-        <div className="mt-6">
-          <h1 className="text-2xl font-bold">Mozahid World</h1>
+        <div className="mt-6 ">
+          <h1 className="text-2xl font-bold text-">Mozahid World</h1>
         </div>
         <div className="mt-6">
-          <h2 className="font-bold text-2xl mb-2">Tutorials:</h2>
+          <h1 className="font-bold text-2xl mb-2">Tutorials:</h1>
           <p className="">Python 3 Tutorial</p>
           <p className="mt-1">JavaScript Tutorial</p>
           <p className="mt-1">HTML Tutorial</p>
@@ -23,7 +23,7 @@ const Footer = () => {
           <p className="mt-1">C++ Tutorial</p>
         </div>
         <div className="mt-6">
-          <h2 className="font-bold text-2xl mb-2">Examples:</h2>
+          <h1 className="font-bold text-2xl mb-2">Examples:</h1>
           <p className="mt-1">C Tutorial</p>
           <p className="mt-1">C++ Tutorial</p>
           <p className="mt-1">R Tutorial</p>
@@ -34,7 +34,7 @@ const Footer = () => {
           <p className="mt-1">C++ Tutorial</p>
         </div>
         <div className="mt-6">
-          <h2 className="font-bold text-2xl mb-2">Company:</h2>
+          <h1 className="font-bold text-2xl mb-2">Company:</h1>
           <p className="mt-1">C Tutorial</p>
           <p className="mt-1">C++ Tutorial</p>
           <p className="mt-1">R Tutorial</p>
