@@ -4,7 +4,7 @@ const WelCome = () => {
   return (
     <div className="lg:px-16 md:px-12 px-6">
       <div className="py-6">
-        <div className="lg:text-[120px] text-[50px]  grid  ">
+        <div className="lg:text-[120px] text-[30px]  grid  ">
           <h1 className="font-bold specialhead">CREATING</h1>
           <h1 className="lg:mt-[-60px]  text-[#0556f3] font-bold">
             THE - FUTURE
