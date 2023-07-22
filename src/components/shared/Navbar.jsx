@@ -1,4 +1,5 @@
 import { GiWorld } from "react-icons/gi";
+import { Link } from "react-router-dom";
 
 const Navbar = () => {
     return (
@@ -9,8 +10,12 @@ const Navbar = () => {
             <h1 className="lg:text-3xl md:text-3xl text-xl">M_World</h1>
           </div>
           <div className="flex lg:gap-6 md:gap-4 gap-4  items-center text-2xl lg:mt-0 md:mt-0 ">
-            <h1 className="lg:text-2xl  text-xl">Home</h1>
-            <h1 className="lg:text-2xl  text-xl">Mission</h1>
+            <Link to="/">
+              <h1 className="lg:text-2xl  text-xl">Home</h1>
+            </Link>
+            <Link to="/careers">
+              <h1 className="lg:text-2xl  text-xl">Careers</h1>
+            </Link>
           </div>
         </div>
       </div>

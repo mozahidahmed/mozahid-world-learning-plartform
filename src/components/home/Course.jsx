@@ -8,6 +8,7 @@ import {
   BiArrowFromLeft,
 } from "react-icons/bi";
 import { SiTypescript } from "react-icons/si";
+import { Link } from "react-router-dom";
 
 const Course = () => {
   return (
@@ -16,12 +17,14 @@ const Course = () => {
         Free tutorials
       </h1>
       <div className="grid md:grid-cols-2 items-center lg:grid-cols-4 gap-2">
-        <div className="flex items-center  border-2 p-5 shadow-sm gap-2  text-3xl ">
-          <div className="bg-[#0556f3] text-white rounded-full p-2">
-            <AiFillHtml5 />
+        <Link to="/html">
+          <div className="flex items-center  border-2 p-5 shadow-sm gap-2  text-3xl ">
+            <div className="bg-[#0556f3] text-white rounded-full p-2">
+              <AiFillHtml5 />
+            </div>
+            <h1 className="text-2xl">Learn html</h1>
           </div>
-          <h1 className="text-2xl">Learn html</h1>
-        </div>
+        </Link>
         <div className="flex items-center border-2 p-5 shadow-sm gap-2  text-3xl ">
           <div className="bg-[#0556f3] text-white rounded-full p-2">
             <FaCss3Alt />

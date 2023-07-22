@@ -1,10 +1,12 @@
 
 import { useEffect, useState } from 'react';
-import CircleLoader
-  from "react-spinners/CircleLoader";
+import CircleLoader from "react-spinners/CircleLoader";
 import Home from './components/home/Home';
 import Footer from './components/shared/Footer';
 import Navbar from './components/shared/Navbar';
+import { Route, Routes } from 'react-router-dom';
+import PageHtml from './components/pages/html/html';
+import Careers from './components/pages/careers/Careers';
 
 
 
@@ -32,9 +34,13 @@ function App() {
         </div>
       ) : (
         <div className="">
-          <Navbar/>
-          <Home /><Footer/>
-         
+          <Navbar />
+          <Routes>
+            <Route path="/" element={<Home />}></Route>
+            <Route path="/html" element={<PageHtml />}></Route>
+            <Route path="/careers" element={<Careers />}></Route>
+          </Routes>
+          <Footer />
         </div>
       )}
     </div>
