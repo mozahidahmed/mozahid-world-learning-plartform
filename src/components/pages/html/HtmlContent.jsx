@@ -37,7 +37,7 @@ const HtmlContent = () => {
       </div>
 
       <div className="border-2 p-6 mt-6 rounded-xl bg-[rgba(239,239,248,0.7)] py-2">
-        <h1 className="text-4xl mb-2">Course Overviews</h1>
+        <h1 className="lg:text-4xl ms:3xl text-2xl mb-2">Course Overviews</h1>
         {data?.map((content, index) => (
           <>
             <div className="flex gap-2 mt-2 items-center">
