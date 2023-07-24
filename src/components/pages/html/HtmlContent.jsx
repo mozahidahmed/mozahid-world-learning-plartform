@@ -41,7 +41,7 @@ const HtmlContent = () => {
         {data?.map((content, index) => (
           <>
             <div className="flex gap-2 mt-2 items-center">
-              <a href="https://youtu.be/NMZdJZz3Mig">
+              <a target="_blank" href={content.link}>
                 <h1>
                   <span className="text-[#2874f0] font-bold">{index}</span>.{" "}
                   {content.name}
