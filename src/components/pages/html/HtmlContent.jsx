@@ -16,7 +16,7 @@ const HtmlContent = () => {
     <div className="lg:px-16 md:px-12 px-6 text-xl py-6">
       <div className="  rounded-full p-2 flex gap-2">
         <AiFillHtml5 className="bg-[#0556f3] lg:text-[200px] lg:p-6 p-2 md:text-[150px] lg:rounded-xl text-6xl text-white" />
-        <h1 className="lg:text-5xl md:text-4xl text-xl">Learn HTML</h1>
+        <h1 className="lg:text-5xl md:text-4xl text-2xl">Learn HTML</h1>
       </div>
 
       <div className="mt-6">
