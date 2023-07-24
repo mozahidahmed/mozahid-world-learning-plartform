@@ -41,9 +41,9 @@ const HtmlContent = () => {
         {data?.map((content, index) => (
           <>
             <div className="flex gap-2 mt-2 items-center">
-              <a target="_blank" href={content.link}>
+              <a  href={content.link}>
                 <h1>
-                  <span className="text-[#2874f0] font-bold">{index}</span>.{" "}
+                  <span className="text-[#2874f0] font-bold">{index}</span>
                   {content.name}
                 </h1>
               </a>
