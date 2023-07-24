@@ -13,7 +13,7 @@ const Team = () => {
               magicians hailing from different parts of the world. magicians
               hailing from different parts of the world.
             </p>
-            <h1 className="underline special font-bold lg:text-2xl mt-6 md:text-2xl text-2xl">
+            <h1 className="underline special font-bold lg:text-2xl mt-6 md:text-2xl lg:text-2xl">
               See More
             </h1>
           </div>

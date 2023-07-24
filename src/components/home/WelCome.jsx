@@ -9,24 +9,27 @@ const WelCome = () => {
           <h1 className="lg:mt-[-60px]  text-[#0556f3] font-bold">
             THE - FUTURE
           </h1>
-          <h1 className="lg:mt-[-60px] font-bold specialhead">WEB DEVELOPER </h1>
+          <h1 className="lg:mt-[-60px] font-bold specialhead">
+            WEB DEVELOPER{" "}
+          </h1>
         </div>
         <h1 className="lg:text-3xl mb-12 dark_style">
           Helping businesses go online and grow bigger <br /> with high-tech web
           applications.
         </h1>
       </div>
-      <div className="text-5xl fade grid justify-center animate-bounce">
+      <div className="text-5xl fade grid justify-center animate-bounce  ">
         <CgMouse />
       </div>
 
       <div className="py-12">
         <div className="py-6">
-          <h1>WE ENVISION WITH A MISSION</h1>
+          <h1 className="text-xl font-bold">WE ENVISION WITH A MISSION</h1>
 
-          <h1 className="lg:text-3xl md:text-xl  font-bold py-2">
-            Here, we embrace the challenge to drive <br />each other to excellence by
-            enriching <br />our own capabilities
+          <h1 className="lg:text-3xl md:text-xl   py-2 dark_style">
+            Here, we embrace the challenge to drive <br />
+            each other to excellence by enriching <br />
+            our own capabilities
           </h1>
         </div>
         <div className="grid lg:grid-cols-2 md:grid-cols-2 gap-12">

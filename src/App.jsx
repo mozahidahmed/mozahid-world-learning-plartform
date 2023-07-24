@@ -5,8 +5,9 @@ import Home from './components/home/Home';
 import Footer from './components/shared/Footer';
 import Navbar from './components/shared/Navbar';
 import { Route, Routes } from 'react-router-dom';
-import PageHtml from './components/pages/html/html';
+import HtmlContent from "./components/pages/html/HtmlContent";
 import Careers from './components/pages/careers/Careers';
+import NotFoundPage from './components/shared/NotFoundPage';
 
 
 
@@ -37,8 +38,9 @@ function App() {
           <Navbar />
           <Routes>
             <Route path="/" element={<Home />}></Route>
-            <Route path="/html" element={<PageHtml />}></Route>
+            <Route path="/html" element={<HtmlContent />}></Route>
             <Route path="/careers" element={<Careers />}></Route>
+            <Route path="/*" element={<NotFoundPage />}></Route>
           </Routes>
           <Footer />
         </div>

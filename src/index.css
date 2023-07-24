@@ -1,6 +1,7 @@
-@import url('https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300&display=swap');
+/* h1 */
 @import url('https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@500&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300&display=swap');
+/* p */
+@import url('https://fonts.googleapis.com/css2?family=Raleway&display=swap');
 
 @tailwind base;
 @tailwind components;
@@ -9,10 +10,21 @@
 .specialhead{
     color: rgb(61, 60, 60);
 }
+
+
 h1{
 font-family: 'Space Grotesk', sans-serif;
 
 }
+
+p{
+font-family: 'Raleway', sans-serif;
+
+}
+
+
+
+
 p{
     text-align: justify;
 }
